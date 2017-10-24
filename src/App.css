@@ -1,0 +1,59 @@
+nav {
+  position: fixed;
+  height: 100vh;
+  width: 57px;
+  background-color: #172A3A;
+  color: white;
+}
+
+#logo {
+  padding: 5px;
+  width: 47px;
+  height: 47px;
+}
+
+.link-logo {
+  margin: 5px;
+  width: 47px;
+  height: 47px;
+}
+
+.link-text {
+  text-decoration: none;
+  text-align: center;
+  font-size: 27px;
+  line-height: 27px;
+  display: block;
+  width: 57px;
+}
+
+#logo.playground  {
+  background-color: #09141C;
+}
+
+#page-content {
+  margin-left: 57px;
+}
+
+.graphql-voyager,
+.loading-box {
+  background-color: #0F202D;
+}
+.graphql-voyager>.doc-panel>.contents {
+  background: #09141C;
+}
+
+.graphql-voyager .doc-category>.title {
+  border-bottom-color: #172A3A;
+}
+
+.graphql-voyager .doc-category>.item:hover {
+  background-color: #172A3A;
+}
+.graphql-voyager .doc-category>.item.-selected {
+  background-color: #172A3A;
+}
+.graphql-voyager .type-name.-built-in, .type-name.-scalar {
+  color: #FE3939;
+}
+

@@ -1,0 +1,1 @@
+../../../node_modules/graphql-voyager/dist/voyager.worker.js
