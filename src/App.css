@@ -6,6 +6,12 @@ nav {
   color: white;
 }
 
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 #logo {
   padding: 5px;
   width: 47px;

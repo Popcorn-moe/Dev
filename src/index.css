@@ -5,6 +5,20 @@ body {
   font-family: sans-serif;
 }
 
+html, body, p, a, h1, h2, h3, h4, ul, pre, code {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+}
+
+a:active, a:focus, button:focus, input:focus {
+  outline: none;
+}
+
+input, button, submit {
+  border: none;
+}
+
 .graphql-voyager>.viewport,
 .graphql-voyager>.doc-panel {
   height: 100vh !important;
