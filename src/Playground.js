@@ -6,8 +6,8 @@ export default class Playground extends Component {
   render() {
     return (
       <GPlayground
-        endpoint="http://localhost:3030/graphql"
-        subscriptionEndpoint="http://localhost:3030/subscriptions"
+        endpoint="https://api.popcorn.moe/graphql"
+        subscriptionEndpoint="https://api.popcorn.moe/subscriptions"
       />
     );
   }

@@ -3,7 +3,7 @@ import { Voyager as GVoyager } from 'graphql-voyager'
 import 'graphql-voyager/dist/voyager.css'
 
 function introspectionProvider(query) {
-  return fetch("http://localhost:3030/graphql", {
+  return fetch("https://api.popcorn.moe/graphql", {
     method: 'post',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({query: query}),
