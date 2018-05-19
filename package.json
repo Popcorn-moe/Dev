@@ -1,6 +1,17 @@
 {
-  "name": "popcorn.moe-dev",
+  "name": "@popcorn.moe/dev",
   "version": "0.1.0",
+  "description": "Popcorn.moe Dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Popcorn-moe/Dev.git"
+  },
+  "author": "Popcorn-moe",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Popcorn-moe/Dev/issues"
+  },
+  "homepage": "https://github.com/Popcorn-moe/Dev#readme",
   "dependencies": {
     "graphql-playground": "git+https://github.com/Popcorn-moe/graphql-playground.git#npm",
     "graphql-voyager": "^1.0.0-rc.15",
